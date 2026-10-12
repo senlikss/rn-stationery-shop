@@ -1,11 +1,15 @@
 {
   "expo": {
-    "name": "stationery-shop",
-    "slug": "stationery-shop",
+    "name": "Аптека рядом",
+    "slug": "medicine-catalog",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "medicine-catalog",
+    "experiments": {
+      "typedRoutes": true
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -19,6 +23,7 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
     }
   }
